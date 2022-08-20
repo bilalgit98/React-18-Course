@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./components/header";
 
 const App = () => (
-  <div>
-    <h1>hello</h1>
-  </div>
+  <>
+    <Header />
+  </>
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
